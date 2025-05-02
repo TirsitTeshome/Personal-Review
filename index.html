@@ -14,11 +14,12 @@
         <p>A little blog of Books </p>
     </div>
     <nav class="nav-bar">
-        <a href="home.html" id="home">Home</a>
-        <a href="#book-rename">Blog</a>
-        <a href="#reviews">Reviews</a>
-        <a href="#book-list">My TBR List</a>
-        <a href="#contact">Contact</a>
+        <div id="nav-content"> <a href="https://bejewelled-fenglisu-6c8686.netlify.app/" id="home">Home</a>
+            <a href="#book-rename">Blog</a>
+            <a href="#book-list">My TBR List</a>
+            <a href="#feedback">Contact</a>
+        </div>
+
     </nav>
 
     <div id="title-section">
@@ -28,10 +29,10 @@
         <i class="fa-brands fa-facebook" id="icon"></i>
         <i class="fa-brands fa-x-twitter" id="icon"></i>
         <i class="fa-brands fa-instagram" id="icon"></i>
-        <i class="fa-solid fa-envelope"></i>
+        <i class="fa-solid fa-envelope" id="icon"></i>
     </div>
     <div id="thoughts">
-        
+
         <div id="thought">
             <div id="book-rename">
                 <div id="new-title">
@@ -103,58 +104,87 @@
                 </div>
             </div>
         </div>
-   
+
     </div>
 
-    <div id="feed-title">
-        <h1>Let me know what's on your mind</h1>
+
+    <div id="header">
+        <h1> My To Be Read List</h1>
     </div>
 
-    <div id="feedback">
+    <div id="book-list">
+        <div id="becoming">
+            <img src="webpics/alchemist.jpg">
+            <p> The Alchemist</p>
+            <p> By Paulo Cohello</p>
+        </div>
+      
+        <div id="becoming">
+            <img src="webpics/becoming.jpg">
+            <p> Becoming</p>
+            <p> by Michelle Obama</p>
+        </div>
+        <div id="becoming">
+            <img src="webpics/home going.jpg">
+            <p> Home Going</p>
+            <p> by Michelle Obama</p>
+        </div>
+    </div>
 
-        <form>
-            <div class="comment">
+    <div id=feedback>
+        <h1>Let me know what's on your mind </h1>
+        <comments>
+            <div id="comment">
                 <div class="names">
                     <div>
-                        <label for="name">Name:</label>
+                        <label for="name">First Name *</label><br>
                         <input type="text" id="name">
                     </div>
                     <div>
-                        <label for="last-name">Last Name:</label>
+                        <label for="last-name">Last Name *</label><br>
                         <input type="text" id="name">
                     </div>
                 </div>
                 <br><br>
-                <label for="email">Email:</label>
-
-                <input type="email" id="email">
+                <label id="email" for="email">Email *</label><br>
+                <input type="email" id="emails">
                 <br><br>
-                <label for="feedback">Message:</label>
-
-                <textarea style="width: 90%;" id="feedback" name="feedback" rows="4" cols="50" required></textarea>
+                <label id="message" for="message">Message...</label><br>
+                <input type="text" id="input-message">
                 <br>
-                <button type="submit" id="submit_button"><a href="" style="color:white;">submit</a> </button>
+                <button type="submit" id="submit-button"><a href="" style="color:white;">Submit</a> </button>
             </div>
-        </form>
+        </comments>
     </div>
 
-    <div id="books">
-
-    </div>
-    <footer>
-        <div>
-
+    <footer class="end-page">
+        <div class="footer">
+            <div class="footer-detail">
+                <h2>Contacts</h2>
+                <a href="tirsit_pictures"> <i class="fa-brands fa-instagram"></i> @tirsit-pictures</a>
+            </div>
+            <div class="footer-detail">
+                <h2> Services</h2>
+                <p> Book Recommendations</p>
+                <p> Book Rent</p>
+                <p>Book Reviews</p>
+            </div>
+            <div class="footer-detail">
+                <h2> Get in touch with us</h2>
+                <a href="mailto: tirsitberihu@gmail.com"> <i class="fa-solid fa-envelope"></i> tirsitberihu@gmail.com</a>
+                <p><i class="fa-solid fa-phone" id="call"></i> +254 707 765 345</p>
+                </i>
+                <a href="https://www.google.com/maps/place/AkiraChix/@-1.3448021,36.7273925,17z/data=!3m1!4b1!4m6!3m5!1s0x182f109997354b97:0xe54a131abd8ebdb2!8m2!3d-1.3448021!4d36.7273925!16s%2Fg%2F1pzrscp9m?entry=ttu&g_ep=EgoyMDI1MDQyOC4wIKXMDSoASAFQAw%3D%3D"><i class="fa-solid fa-location-dot"></i> AkiraChix main campus</a>
+            </div>
+        </div>
+        <hr>
+        <div class="copy-right">
+            <p><i class="fa-solid fa-copyright"></i> Copyright 2024,All Rights Reserved by Tirsit Berihu</p>
         </div>
     </footer>
 
 
-    <div id="book-list">
-        <img src="">
-        <img src="">
-        <img src="">
-        <img src="">
-        
-    </div>
+
 </body>
 
 </html>
