@@ -45,6 +45,8 @@ body {
     padding-bottom: 1%;
     border-bottom: 1px solid black;
     border-top: 1px solid black;
+    justify-content: space-between;
+    font-family: pom;
 
 
 
@@ -129,6 +131,7 @@ height: 80vh;
         font-family: pom;
         color: rgb(62, 65, 62);
         width: 70%;
+        margin-left: 8%;
         text-align: center;
         color:  #e28a42;
     }
@@ -258,7 +261,7 @@ input {
     a {
         text-decoration: none;
         color: white;
-        background-color: rgb(70, 65, 65);
+        /* background-color:none; */
     }
 }
 
